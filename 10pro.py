@@ -141,10 +141,10 @@ print("---LOGIN SUCCES---")
 
 poll = LinePoll(cl)
 call = cl
-creator = ["uf50d888821632d32461e37153ac775c0"]
-owner = ["uf50d888821632d32461e37153ac775c0"]
-admin = ["uf50d888821632d32461e37153ac775c0"]
-staff = ["uf50d888821632d32461e37153ac775c0"]
+creator = ["ue32b11986d8e9e5cf70b642cf7ba88ff"]
+owner = ["ue32b11986d8e9e5cf70b642cf7ba88ff"]
+admin = ["ue32b11986d8e9e5cf70b642cf7ba88ff"]
+staff = ["ue32b11986d8e9e5cf70b642cf7ba88ff"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
@@ -418,101 +418,101 @@ def command(text):
 def help():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage = "▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬\n" + \
-                  "╔══[ MENU BOTS ]\n"+\
-                  "║☯➸ " + key + "Me\n" + \
-                  "║☯➸ " + key + "Mid「@」\n" + \
-                  "║☯➸ " + key + "Info「@」\n" + \
-                  "║☯➸ " + key + "Nk「@」\n" + \
-                  "║☯➸ " + key + "Kick1「@」\n" + \
-                  "║☯➸ " + key + "Mybot\n" + \
-                  "║☯➸ " + key + "Status\n" + \
-                  "║☯➸ " + key + "About\n" + \
-                  "║☯➸ " + key + "Restart\n" + \
-                  "║☯➸ " + key + "Runtime\n" + \
-                  "║☯➸ " + key + "Creator\n" + \
-                  "║☯➸ " + key + "Speed/Sp\n" + \
-                  "║☯➸ " + key + "Respontime\n" + \
-                  "║☯➸ " + key + "Sepinya\n" + \
-                  "║☯➸ " + key + "Joinall\n" + \
-                  "║☯➸ " + key + "Byeall\n" + \
-                  "║☯➸ " + key + "Bye me\n" + \
-                  "║☯➸ " + key + "Leave「Namagrup」\n" + \
-                  "║☯➸ " + key + "Ginfo\n" + \
-                  "║☯➸ " + key + "Open\n" + \
-                  "║☯➸ " + key + "Close\n" + \
-                  "║☯➸ " + key + "Url\n" + \
-                  "║☯➸ " + key + "Gruplist\n" + \
-                  "║☯➸ " + key + "Open「nomer」\n" + \
-                  "║☯➸ " + key + "Close「nomer」\n" + \
-                  "║☯➸ " + key + "Infogrup「nomer」\n" + \
-                  "║☯➸ " + key + "Infomem「nomer」\n" + \
-                  "║☯➸ " + key + "Leaveall「nomer」\n" + \
-                  "║☯➸ " + key + "Remove chat\n" + \
-                  "║☯➸ " + key + "Lurking「on/off」\n" + \
-                  "║☯➸ " + key + "Lurkers\n" + \
-                  "║☯➸ " + key + "Sider「on/off」\n" + \
-                  "║☯➸ " + key + "Updatefoto\n" + \
-                  "║☯➸ " + key + "Updategrup\n" + \
-                  "║☯➸ " + key + "Updatebot\n" + \
-                  "║☯➸ " + key + "Broadcast:「Text」\n" + \
-                  "║☯➸ " + key + "Setkey「New Key」\n" + \
-                  "║☯➸ " + key + "Mykey\n" + \
-                  "║☯➸ " + key + "Resetkey\n" + \
-                  "╠══[ ᴍᴇᴅɪᴀ ]\n" + \
-                  "║☯➸ " + key + "Kode wilayah\n" + \
-                  "║☯➸ " + key + "Listmp3\n" + \
-                  "║☯➸ " + key + "Listvideo\n" + \
-                  "║☯➸ " + key + "Listimage\n" + \
-                  "║☯➸ " + key + "Liststicker\n" + \
-                  "║☯➸ " + key + "Addimg「Teks」\n" + \
-                  "║☯➸ " + key + "Dellimg「Teks」\n" + \
-                  "║☯➸ " + key + "Addmp3「Teks」\n" + \
-                  "║☯➸ " + key + "Dellmp3「Teks」\n" + \
-                  "║☯➸ " + key + "Addvideo「Teks」\n" + \
-                  "║☯➸ " + key + "Dellvideo「Teks」\n" + \
-                  "║☯➸ " + key + "Addsticker「Teks」\n" + \
-                  "║☯➸ " + key + "Dellsticker「Teks」\n" + \
-                  "║☯➸ " + key + "Spamtag:「jumlahnya」\n" + \
-                  "║☯➸ " + key + "Spamtag「@」\n" + \
-                  "║☯➸ " + key + "Spamcall:「jumlahnya」\n" + \
-                  "║☯➸ " + key + "Spamcall\n" + \
-                  "║☯➸ " + key + "Ytmp3:「Judul Lagu」\n" + \
-                  "║☯➸ " + key + "Ytmp4:「Judul Video」\n" + \
-                  "║☯➸ " + key + "Musik「Nama Penyanyi」\n" + \
-                  "║☯➸ " + key + "Get-fs「Query」\n" + \
-                  "║☯➸ " + key + "Get-line「ID Line」\n" + \
-                  "║☯➸ " + key + "Get-apk「Query」\n" + \
-                  "║☯➸ " + key + "Get-gif「Query」\n" + \
-                  "║☯➸ " + key + "Get-xxx「Query」\n" + \
-                  "║☯➸ " + key + "Get-anime「Query」\n" + \
-                  "║☯➸ " + key + "Get-mimpi「Query」\n" + \
-                  "║☯➸ " + key + "Get-audio「Query」\n" + \
-                  "║☯➸ " + key + "Get-mp3「Query」\n" + \
-                  "║☯➸ " + key + "Get-video「Query」\n" + \
-                  "║☯➸ " + key + "Get-bintang「Zodiak」\n" + \
-                  "║☯➸ " + key + "Get-zodiak「Zodiak」\n" + \
-                  "║☯➸ " + key + "Get-sholat「Nama Kota」\n" + \
-                  "║☯➸ " + key + "Get-cuaca「Nama Kota」\n" + \
-                  "║☯➸ " + key + "Get-lokasi「Nama Kota」\n" + \
-                  "║☯➸ " + key + "Get-lirik「Judul Lagu」\n" + \
-                  "║☯➸ " + key + "Get-instagram「User Name」\n" + \
-                  "║☯➸ " + key + "Get-date「tgl-bln-thn」\n" + \
-                  "╠══[ protect ]\n" + \
-                  "║☯➸ " + key + "Notag「on/off」\n" + \
-                  "║☯➸ " + key + "Allpro「on/off」\n" + \
-                  "║☯➸ " + key + "Protecturl「on/off」\n" + \
-                  "║☯➸ " + key + "Protectjoin「on/off」\n" + \
-                  "║☯➸ " + key + "Protectkick「on/off」\n" + \
-                  "║☯➸ " + key + "Protectinvite「on/off」\n" + \
-                  "║☯➸ " + key + "Protectcancel「on/off」\n" + \
-                  "║☯➸ " + key + "Antijs「on/off」\n" + \
-                  "║☯➸ " + key + "Ghost「on/off」\n" + \
-                  "╠══[ Set kicker ]\n" + \
-                  "║☯➸ " + key + "Kick「on/off」\n" + \
-                  "║☯➸ " + key + "Nk「@」\n" + \
-                  "║☯➸ " + key + "Kick1「@」\n" + \
-                  "╠══[ Set user ]\n" + \
+    helpMessage = "Pnu Suphat\n" + \
+                  "[ MENU BOTS ]\n"+\
+                  "1" + key + "Me\n" + \
+                  "2" + key + "Mid「@」\n" + \
+                  "3" + key + "Info「@」\n" + \
+                  "4" + key + "Nk「@」\n" + \
+                  "5" + key + "Kick1「@」\n" + \
+                  "6" + key + "Mybot\n" + \
+                  "7" + key + "Status\n" + \
+                  "8" + key + "About\n" + \
+                  "9" + key + "Restart\n" + \
+                  "10 " + key + "Runtime\n" + \
+                  "11" + key + "Creator\n" + \
+                  "12" + key + "Speed/Sp\n" + \
+                  "13" + key + "Respontime\n" + \
+                  "14" + key + "Sepinya\n" + \
+                  "15" + key + "Joinall\n" + \
+                  "16" + key + "Byeall\n" + \
+                  "17" + key + "Bye me\n" + \
+                  "18" + key + "Leave「Namagrup」\n" + \
+                  "19" + key + "Ginfo\n" + \
+                  "20" + key + "Open\n" + \
+                  "21" + key + "Close\n" + \
+                  "22" + key + "Url\n" + \
+                  "23" + key + "Gruplist\n" + \
+                  "24" + key + "Open「nomer」\n" + \
+                  "25" + key + "Close「nomer」\n" + \
+                  "26" + key + "Infogrup「nomer」\n" + \
+                  "27" + key + "Infomem「nomer」\n" + \
+                  "28" + key + "Leaveall「nomer」\n" + \
+                  "29" + key + "Remove chat\n" + \
+                  "30" + key + "Lurking「on/off」\n" + \
+                  "31" + key + "Lurkers\n" + \
+                  "32" + key + "Sider「on/off」\n" + \
+                  "33" + key + "Updatefoto\n" + \
+                  "34" + key + "Updategrup\n" + \
+                  "35" + key + "Updatebot\n" + \
+                  "36" + key + "Broadcast:「Text」\n" + \
+                  "37" + key + "Setkey「New Key」\n" + \
+                  "38" + key + "Mykey\n" + \
+                  "39" + key + "Resetkey\n" + \
+                  "-------[ ...... ]\n" + \
+                  "40" + key + "Kode wilayah\n" + \
+                  "41" + key + "Listmp3\n" + \
+                  "42" + key + "Listvideo\n" + \
+                  "43" + key + "Listimage\n" + \
+                  "44" + key + "Liststicker\n" + \
+                  "45" + key + "Addimg「Teks」\n" + \
+                  "46" + key + "Dellimg「Teks」\n" + \
+                  "47" + key + "Addmp3「Teks」\n" + \
+                  "48" + key + "Dellmp3「Teks」\n" + \
+                  "49" + key + "Addvideo「Teks」\n" + \
+                  "50" + key + "Dellvideo「Teks」\n" + \
+                  "51" + key + "Addsticker「Teks」\n" + \
+                  "52" + key + "Dellsticker「Teks」\n" + \
+                  "53" + key + "Spamtag:「jumlahnya」\n" + \
+                  "54" + key + "Spamtag「@」\n" + \
+                  "55" + key + "Spamcall:「jumlahnya」\n" + \
+                  "56" + key + "Spamcall\n" + \
+                  "57" + key + "Ytmp3:「Judul Lagu」\n" + \
+                  "58" + key + "Ytmp4:「Judul Video」\n" + \
+                  "59" + key + "Musik「Nama Penyanyi」\n" + \
+                  "60" + key + "Get-fs「Query」\n" + \
+                  "61" + key + "Get-line「ID Line」\n" + \
+                  "62" + key + "Get-apk「Query」\n" + \
+                  "63" + key + "Get-gif「Query」\n" + \
+                  "64" + key + "Get-xxx「Query」\n" + \
+                  "65" + key + "Get-anime「Query」\n" + \
+                  "66" + key + "Get-mimpi「Query」\n" + \
+                  "67" + key + "Get-audio「Query」\n" + \
+                  "68" + key + "Get-mp3「Query」\n" + \
+                  "69" + key + "Get-video「Query」\n" + \
+                  "70" + key + "Get-bintang「Zodiak」\n" + \
+                  "71" + key + "Get-zodiak「Zodiak」\n" + \
+                  "72" + key + "Get-sholat「Nama Kota」\n" + \
+                  "73" + key + "Get-cuaca「Nama Kota」\n" + \
+                  "74" + key + "Get-lokasi「Nama Kota」\n" + \
+                  "75" + key + "Get-lirik「Judul Lagu」\n" + \
+                  "76" + key + "Get-instagram「User Name」\n" + \
+                  "77" + key + "Get-date「tgl-bln-thn」\n" + \
+                  "-----[ protect ]\n" + \
+                  "78" + key + "Notag「on/off」\n" + \
+                  "79" + key + "Allpro「on/off」\n" + \
+                  "80" + key + "Protecturl「on/off」\n" + \
+                  "81" + key + "Protectjoin「on/off」\n" + \
+                  "82" + key + "Protectkick「on/off」\n" + \
+                  "83" + key + "Protectinvite「on/off」\n" + \
+                  "84" + key + "Protectcancel「on/off」\n" + \
+                  "85" + key + "Antijs「on/off」\n" + \
+                  "86" + key + "Ghost「on/off」\n" + \
+                  "------[ Set kicker ]\n" + \
+                  "87" + key + "Kick「on/off」\n" + \
+                  "88" + key + "Nk「@」\n" + \
+                  "89" + key + "Kick1「@」\n" + \
+                  "----[ Set user ]\n" + \
                   "║☯➸ " + key + "Invite「on/off」\n" + \
                   "║☯➸ " + key + "Sticker「on/off」\n" + \
                   "║☯➸ " + key + "Unsend「on/off」\n" + \
